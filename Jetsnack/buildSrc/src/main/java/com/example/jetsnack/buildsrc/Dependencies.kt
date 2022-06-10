@@ -21,7 +21,7 @@ object Versions {
 }
 
 object Libs {
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.2.0"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.2.1"
 
     object Accompanist {
         const val version = "0.24.10-beta"
@@ -47,8 +47,8 @@ object Libs {
         const val coreKtx = "androidx.core:core-ktx:1.7.0"
 
         object Compose {
-            const val snapshot = ""
-            const val version = "1.2.0-beta03"
+            const val snapshot = "8720936"
+            const val version = "1.2.0-SNAPSHOT"
 
             const val foundation = "androidx.compose.foundation:foundation:${version}"
             const val layout = "androidx.compose.foundation:foundation-layout:${version}"
